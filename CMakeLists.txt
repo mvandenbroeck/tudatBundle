@@ -15,9 +15,9 @@ project( TudatBundle )
 
 # Package options
 option(USE_CSPICE   "Build CSPICE libary, tudat with SPICE support and example applications." ON)
-option(USE_JSONCPP  "Build JSONCPP library and example applications." OFF)
+option(USE_JSONCPP  "Build JSONCPP library and example applications." ON)
 option(USE_NRLMSISE "Build NRLMISE-00 library and tudat with NRLMSISE support." OFF)
-option(USE_PAGMO    "Build PaGMO library." OFF)
+option(USE_PAGMO    "Build PaGMO library." ON)
 
 # Set root-directory for code to current source directory.
 set(PROJECTROOT "${CMAKE_CURRENT_SOURCE_DIR}/")
@@ -91,8 +91,8 @@ if(USE_PAGMO)
     file(WRITE ${ppfile} "${MODIFIED_FILE_CONTENT}")
   endforeach()
   OPTION(BUILD_PYGMO    "Build PaGMO with Python bindings." OFF)
-  OPTION(ENABLE_TESTS   "Build PaGMO with test set."        OFF)
-  OPTION(BUILD_EXAMPLES "Build PaGMO with examples."        OFF)
+  OPTION(ENABLE_TESTS   "Build PaGMO with test set."        ON)
+  OPTION(BUILD_EXAMPLES "Build PaGMO with examples."        ON)
   set(CMAKE_ARCHIVE_OUTPUT_DIRECTORY "${CMAKE_CURRENT_SOURCE_DIR}/pagmo/lib"
     CACHE PATH "Path for building static PaGMO library in.")
   set(CMAKE_LIBRARY_OUTPUT_DIRECTORY "${CMAKE_CURRENT_SOURCE_DIR}/pagmo/lib"
@@ -110,8 +110,12 @@ endif()
 #
 set(TUDAT_BUILD_DIR "${PROJECTROOT}/tudat")
 add_subdirectory( "${PROJECTROOT}/tudat/Tudat/")
+add_subdirectory( "${PROJECTROOT}/thesis/USMPropagation/USMPropagation/" )
 add_subdirectory( "${PROJECTROOT}/tudatExampleApplications/satellitePropagatorExamples/SatellitePropagatorExamples/")
 if(USE_CSPICE AND USE_JSONCPP)
   add_subdirectory( "${PROJECTROOT}/tudatExampleApplications/libraryExamples/SpiceAndJSON/")
+endif()
+if(USE_JSONCPP)
+  add_subdirectory( "${PROJECTROOT}/tudatExampleApplications/libraryExamples/JSON/")
 endif()
 add_subdirectory( "${PROJECTROOT}/tudatExampleApplications/templateApplication/TemplateApplication")
