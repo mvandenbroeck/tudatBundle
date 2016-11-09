@@ -35,6 +35,54 @@
 
 using namespace std;
 
+class function
+{
+public:
+    function( double param_a, double param_b ) // Constructor
+    {
+        a = param_a;
+        b = param_b;
+    }
+
+    evaluate( double x )
+    {
+        return a / x + b;
+    }
+
+private:
+    double a, b;
+
+protected:
+};
+
+class dfunction1 : public function // Derived class of function
+{
+public:
+    double evaluate1( double X )
+    {
+        return a*X^3 + b*X^2;
+    }
+};
+
+class dfunction2 : public function // Derived class of function
+{
+public:
+    double evaluate2( double AA, double BB )
+    {
+        return a*AA^2 + b*BB^2 + AA + BB;
+    }
+};
+
+
+boost::shared_ptr< BaseClass > pointernaam =
+        boost::make_shared< BaseClass >( alle argumenten in constructor van baseclass );
+
+
+double functieZ( boost::shared_ptr< BaseClass > pointernaam )
+{
+        double output = pointernaam->functieVanClass( input );
+        return output*2.0;
+}
 
 
 int main( )

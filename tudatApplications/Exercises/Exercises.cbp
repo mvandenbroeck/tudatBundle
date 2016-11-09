@@ -1,0 +1,387 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes" ?>
+<CodeBlocks_project_file>
+   <FileVersion major="1" minor="6" />
+   <Project>
+      <Option title="Exercises" />
+      <Option makefile_is_custom="1" />
+      <Option compiler="gcc" />
+      <Option virtualFolders="CMake Files\;CMake Files\CMakeModules\;" />
+      <Build>
+      <Target title="all">
+         <Option working_dir="C:/tudatBundle_mvdb/tudatApplications/Exercises" />
+         <Option type="4" />
+         <MakeCommands>
+            <Build command="C:/Qt/Tools/mingw491_32/bin/mingw32-make.exe -f &quot;C:/tudatBundle_mvdb/tudatApplications/Exercises/Makefile&quot;  VERBOSE=1 all" />
+            <CompileFile command="C:/Qt/Tools/mingw491_32/bin/mingw32-make.exe -f &quot;C:/tudatBundle_mvdb/tudatApplications/Exercises/Makefile&quot;  VERBOSE=1 &quot;$file&quot;" />
+            <Clean command="C:/Qt/Tools/mingw491_32/bin/mingw32-make.exe -f &quot;C:/tudatBundle_mvdb/tudatApplications/Exercises/Makefile&quot;  VERBOSE=1 clean" />
+            <DistClean command="C:/Qt/Tools/mingw491_32/bin/mingw32-make.exe -f &quot;C:/tudatBundle_mvdb/tudatApplications/Exercises/Makefile&quot;  VERBOSE=1 clean" />
+         </MakeCommands>
+      </Target>
+      <Target title="install/local">
+         <Option working_dir="C:/tudatBundle_mvdb/tudatApplications/Exercises" />
+         <Option type="4" />
+         <MakeCommands>
+            <Build command="C:/Qt/Tools/mingw491_32/bin/mingw32-make.exe -f &quot;C:/tudatBundle_mvdb/tudatApplications/Exercises/Makefile&quot;  VERBOSE=1 install/local" />
+            <CompileFile command="C:/Qt/Tools/mingw491_32/bin/mingw32-make.exe -f &quot;C:/tudatBundle_mvdb/tudatApplications/Exercises/Makefile&quot;  VERBOSE=1 &quot;$file&quot;" />
+            <Clean command="C:/Qt/Tools/mingw491_32/bin/mingw32-make.exe -f &quot;C:/tudatBundle_mvdb/tudatApplications/Exercises/Makefile&quot;  VERBOSE=1 clean" />
+            <DistClean command="C:/Qt/Tools/mingw491_32/bin/mingw32-make.exe -f &quot;C:/tudatBundle_mvdb/tudatApplications/Exercises/Makefile&quot;  VERBOSE=1 clean" />
+         </MakeCommands>
+      </Target>
+      <Target title="install/strip">
+         <Option working_dir="C:/tudatBundle_mvdb/tudatApplications/Exercises" />
+         <Option type="4" />
+         <MakeCommands>
+            <Build command="C:/Qt/Tools/mingw491_32/bin/mingw32-make.exe -f &quot;C:/tudatBundle_mvdb/tudatApplications/Exercises/Makefile&quot;  VERBOSE=1 install/strip" />
+            <CompileFile command="C:/Qt/Tools/mingw491_32/bin/mingw32-make.exe -f &quot;C:/tudatBundle_mvdb/tudatApplications/Exercises/Makefile&quot;  VERBOSE=1 &quot;$file&quot;" />
+            <Clean command="C:/Qt/Tools/mingw491_32/bin/mingw32-make.exe -f &quot;C:/tudatBundle_mvdb/tudatApplications/Exercises/Makefile&quot;  VERBOSE=1 clean" />
+            <DistClean command="C:/Qt/Tools/mingw491_32/bin/mingw32-make.exe -f &quot;C:/tudatBundle_mvdb/tudatApplications/Exercises/Makefile&quot;  VERBOSE=1 clean" />
+         </MakeCommands>
+      </Target>
+      <Target title="edit_cache">
+         <Option working_dir="C:/tudatBundle_mvdb/tudatApplications/Exercises" />
+         <Option type="4" />
+         <MakeCommands>
+            <Build command="C:/Qt/Tools/mingw491_32/bin/mingw32-make.exe -f &quot;C:/tudatBundle_mvdb/tudatApplications/Exercises/Makefile&quot;  VERBOSE=1 edit_cache" />
+            <CompileFile command="C:/Qt/Tools/mingw491_32/bin/mingw32-make.exe -f &quot;C:/tudatBundle_mvdb/tudatApplications/Exercises/Makefile&quot;  VERBOSE=1 &quot;$file&quot;" />
+            <Clean command="C:/Qt/Tools/mingw491_32/bin/mingw32-make.exe -f &quot;C:/tudatBundle_mvdb/tudatApplications/Exercises/Makefile&quot;  VERBOSE=1 clean" />
+            <DistClean command="C:/Qt/Tools/mingw491_32/bin/mingw32-make.exe -f &quot;C:/tudatBundle_mvdb/tudatApplications/Exercises/Makefile&quot;  VERBOSE=1 clean" />
+         </MakeCommands>
+      </Target>
+      <Target title="install">
+         <Option working_dir="C:/tudatBundle_mvdb/tudatApplications/Exercises" />
+         <Option type="4" />
+         <MakeCommands>
+            <Build command="C:/Qt/Tools/mingw491_32/bin/mingw32-make.exe -f &quot;C:/tudatBundle_mvdb/tudatApplications/Exercises/Makefile&quot;  VERBOSE=1 install" />
+            <CompileFile command="C:/Qt/Tools/mingw491_32/bin/mingw32-make.exe -f &quot;C:/tudatBundle_mvdb/tudatApplications/Exercises/Makefile&quot;  VERBOSE=1 &quot;$file&quot;" />
+            <Clean command="C:/Qt/Tools/mingw491_32/bin/mingw32-make.exe -f &quot;C:/tudatBundle_mvdb/tudatApplications/Exercises/Makefile&quot;  VERBOSE=1 clean" />
+            <DistClean command="C:/Qt/Tools/mingw491_32/bin/mingw32-make.exe -f &quot;C:/tudatBundle_mvdb/tudatApplications/Exercises/Makefile&quot;  VERBOSE=1 clean" />
+         </MakeCommands>
+      </Target>
+      <Target title="rebuild_cache">
+         <Option working_dir="C:/tudatBundle_mvdb/tudatApplications/Exercises" />
+         <Option type="4" />
+         <MakeCommands>
+            <Build command="C:/Qt/Tools/mingw491_32/bin/mingw32-make.exe -f &quot;C:/tudatBundle_mvdb/tudatApplications/Exercises/Makefile&quot;  VERBOSE=1 rebuild_cache" />
+            <CompileFile command="C:/Qt/Tools/mingw491_32/bin/mingw32-make.exe -f &quot;C:/tudatBundle_mvdb/tudatApplications/Exercises/Makefile&quot;  VERBOSE=1 &quot;$file&quot;" />
+            <Clean command="C:/Qt/Tools/mingw491_32/bin/mingw32-make.exe -f &quot;C:/tudatBundle_mvdb/tudatApplications/Exercises/Makefile&quot;  VERBOSE=1 clean" />
+            <DistClean command="C:/Qt/Tools/mingw491_32/bin/mingw32-make.exe -f &quot;C:/tudatBundle_mvdb/tudatApplications/Exercises/Makefile&quot;  VERBOSE=1 clean" />
+         </MakeCommands>
+      </Target>
+      <Target title="putanythingyouwanthere_application">
+         <Option output="C:/tudatBundle_mvdb/tudatApplications/Exercises/lib/libputanythingyouwanthere_application.a" prefix_auto="0" extension_auto="0" />
+         <Option working_dir="C:/tudatBundle_mvdb/tudatApplications/Exercises" />
+         <Option object_output="./" />
+         <Option type="2" />
+         <Option compiler="gcc" />
+         <Compiler>
+            <Add directory="C:/Qt/Tools/mingw491_32/bin/../lib/gcc/i686-w64-mingw32/4.9.1/../../../../i686-w64-mingw32/include" />
+            <Add directory="C:/Qt/Tools/mingw491_32/bin/../lib/gcc/i686-w64-mingw32/4.9.1/include" />
+            <Add directory="C:/Qt/Tools/mingw491_32/bin/../lib/gcc/i686-w64-mingw32/4.9.1/include-fixed" />
+            <Add directory="C:/Qt/Tools/mingw491_32/lib/gcc/../../i686-w64-mingw32/include/c++" />
+            <Add directory="C:/Qt/Tools/mingw491_32/lib/gcc/../../i686-w64-mingw32/include/c++/backward" />
+            <Add directory="C:/Qt/Tools/mingw491_32/lib/gcc/../../i686-w64-mingw32/include/c++/i686-w64-mingw32" />
+            <Add directory="C:/tudatBundle_mvdb/boost" />
+            <Add directory="C:/tudatBundle_mvdb/eigen" />
+            <Add directory="C:/tudatBundle_mvdb/tudat/Tudat/.." />
+            <Add directory="C:/tudatBundle_mvdb/tudatApplications/Exercises/Exercises/.." />
+            <Add directory="C:/tudatBundle_mvdb/tudatApplications/Exercises/Exercises/AFTER" />
+         </Compiler>
+         <MakeCommands>
+            <Build command="C:/Qt/Tools/mingw491_32/bin/mingw32-make.exe -f &quot;C:/tudatBundle_mvdb/tudatApplications/Exercises/Makefile&quot;  VERBOSE=1 putanythingyouwanthere_application" />
+            <CompileFile command="C:/Qt/Tools/mingw491_32/bin/mingw32-make.exe -f &quot;C:/tudatBundle_mvdb/tudatApplications/Exercises/Makefile&quot;  VERBOSE=1 &quot;$file&quot;" />
+            <Clean command="C:/Qt/Tools/mingw491_32/bin/mingw32-make.exe -f &quot;C:/tudatBundle_mvdb/tudatApplications/Exercises/Makefile&quot;  VERBOSE=1 clean" />
+            <DistClean command="C:/Qt/Tools/mingw491_32/bin/mingw32-make.exe -f &quot;C:/tudatBundle_mvdb/tudatApplications/Exercises/Makefile&quot;  VERBOSE=1 clean" />
+         </MakeCommands>
+      </Target>
+      <Target title="putanythingyouwanthere_application/fast">
+         <Option output="C:/tudatBundle_mvdb/tudatApplications/Exercises/lib/libputanythingyouwanthere_application.a" prefix_auto="0" extension_auto="0" />
+         <Option working_dir="C:/tudatBundle_mvdb/tudatApplications/Exercises" />
+         <Option object_output="./" />
+         <Option type="2" />
+         <Option compiler="gcc" />
+         <Compiler>
+            <Add directory="C:/Qt/Tools/mingw491_32/bin/../lib/gcc/i686-w64-mingw32/4.9.1/../../../../i686-w64-mingw32/include" />
+            <Add directory="C:/Qt/Tools/mingw491_32/bin/../lib/gcc/i686-w64-mingw32/4.9.1/include" />
+            <Add directory="C:/Qt/Tools/mingw491_32/bin/../lib/gcc/i686-w64-mingw32/4.9.1/include-fixed" />
+            <Add directory="C:/Qt/Tools/mingw491_32/lib/gcc/../../i686-w64-mingw32/include/c++" />
+            <Add directory="C:/Qt/Tools/mingw491_32/lib/gcc/../../i686-w64-mingw32/include/c++/backward" />
+            <Add directory="C:/Qt/Tools/mingw491_32/lib/gcc/../../i686-w64-mingw32/include/c++/i686-w64-mingw32" />
+            <Add directory="C:/tudatBundle_mvdb/boost" />
+            <Add directory="C:/tudatBundle_mvdb/eigen" />
+            <Add directory="C:/tudatBundle_mvdb/tudat/Tudat/.." />
+            <Add directory="C:/tudatBundle_mvdb/tudatApplications/Exercises/Exercises/.." />
+            <Add directory="C:/tudatBundle_mvdb/tudatApplications/Exercises/Exercises/AFTER" />
+         </Compiler>
+         <MakeCommands>
+            <Build command="C:/Qt/Tools/mingw491_32/bin/mingw32-make.exe -f &quot;C:/tudatBundle_mvdb/tudatApplications/Exercises/Makefile&quot;  VERBOSE=1 putanythingyouwanthere_application/fast" />
+            <CompileFile command="C:/Qt/Tools/mingw491_32/bin/mingw32-make.exe -f &quot;C:/tudatBundle_mvdb/tudatApplications/Exercises/Makefile&quot;  VERBOSE=1 &quot;$file&quot;" />
+            <Clean command="C:/Qt/Tools/mingw491_32/bin/mingw32-make.exe -f &quot;C:/tudatBundle_mvdb/tudatApplications/Exercises/Makefile&quot;  VERBOSE=1 clean" />
+            <DistClean command="C:/Qt/Tools/mingw491_32/bin/mingw32-make.exe -f &quot;C:/tudatBundle_mvdb/tudatApplications/Exercises/Makefile&quot;  VERBOSE=1 clean" />
+         </MakeCommands>
+      </Target>
+      <Target title="list_install_components">
+         <Option working_dir="C:/tudatBundle_mvdb/tudatApplications/Exercises" />
+         <Option type="4" />
+         <MakeCommands>
+            <Build command="C:/Qt/Tools/mingw491_32/bin/mingw32-make.exe -f &quot;C:/tudatBundle_mvdb/tudatApplications/Exercises/Makefile&quot;  VERBOSE=1 list_install_components" />
+            <CompileFile command="C:/Qt/Tools/mingw491_32/bin/mingw32-make.exe -f &quot;C:/tudatBundle_mvdb/tudatApplications/Exercises/Makefile&quot;  VERBOSE=1 &quot;$file&quot;" />
+            <Clean command="C:/Qt/Tools/mingw491_32/bin/mingw32-make.exe -f &quot;C:/tudatBundle_mvdb/tudatApplications/Exercises/Makefile&quot;  VERBOSE=1 clean" />
+            <DistClean command="C:/Qt/Tools/mingw491_32/bin/mingw32-make.exe -f &quot;C:/tudatBundle_mvdb/tudatApplications/Exercises/Makefile&quot;  VERBOSE=1 clean" />
+         </MakeCommands>
+      </Target>
+      <Target title="application_Exercise1">
+         <Option output="C:/tudatBundle_mvdb/tudatApplications/Exercises/bin/applications/application_Exercise1.exe" prefix_auto="0" extension_auto="0" />
+         <Option working_dir="C:/tudatBundle_mvdb/tudatApplications/Exercises" />
+         <Option object_output="./" />
+         <Option type="1" />
+         <Option compiler="gcc" />
+         <Compiler>
+            <Add directory="C:/Qt/Tools/mingw491_32/bin/../lib/gcc/i686-w64-mingw32/4.9.1/../../../../i686-w64-mingw32/include" />
+            <Add directory="C:/Qt/Tools/mingw491_32/bin/../lib/gcc/i686-w64-mingw32/4.9.1/include" />
+            <Add directory="C:/Qt/Tools/mingw491_32/bin/../lib/gcc/i686-w64-mingw32/4.9.1/include-fixed" />
+            <Add directory="C:/Qt/Tools/mingw491_32/lib/gcc/../../i686-w64-mingw32/include/c++" />
+            <Add directory="C:/Qt/Tools/mingw491_32/lib/gcc/../../i686-w64-mingw32/include/c++/backward" />
+            <Add directory="C:/Qt/Tools/mingw491_32/lib/gcc/../../i686-w64-mingw32/include/c++/i686-w64-mingw32" />
+            <Add directory="C:/tudatBundle_mvdb/boost" />
+            <Add directory="C:/tudatBundle_mvdb/eigen" />
+            <Add directory="C:/tudatBundle_mvdb/tudat/Tudat/.." />
+            <Add directory="C:/tudatBundle_mvdb/tudatApplications/Exercises/Exercises/.." />
+            <Add directory="C:/tudatBundle_mvdb/tudatApplications/Exercises/Exercises/AFTER" />
+         </Compiler>
+         <MakeCommands>
+            <Build command="C:/Qt/Tools/mingw491_32/bin/mingw32-make.exe -f &quot;C:/tudatBundle_mvdb/tudatApplications/Exercises/Makefile&quot;  VERBOSE=1 application_Exercise1" />
+            <CompileFile command="C:/Qt/Tools/mingw491_32/bin/mingw32-make.exe -f &quot;C:/tudatBundle_mvdb/tudatApplications/Exercises/Makefile&quot;  VERBOSE=1 &quot;$file&quot;" />
+            <Clean command="C:/Qt/Tools/mingw491_32/bin/mingw32-make.exe -f &quot;C:/tudatBundle_mvdb/tudatApplications/Exercises/Makefile&quot;  VERBOSE=1 clean" />
+            <DistClean command="C:/Qt/Tools/mingw491_32/bin/mingw32-make.exe -f &quot;C:/tudatBundle_mvdb/tudatApplications/Exercises/Makefile&quot;  VERBOSE=1 clean" />
+         </MakeCommands>
+      </Target>
+      <Target title="application_Exercise1/fast">
+         <Option output="C:/tudatBundle_mvdb/tudatApplications/Exercises/bin/applications/application_Exercise1.exe" prefix_auto="0" extension_auto="0" />
+         <Option working_dir="C:/tudatBundle_mvdb/tudatApplications/Exercises" />
+         <Option object_output="./" />
+         <Option type="1" />
+         <Option compiler="gcc" />
+         <Compiler>
+            <Add directory="C:/Qt/Tools/mingw491_32/bin/../lib/gcc/i686-w64-mingw32/4.9.1/../../../../i686-w64-mingw32/include" />
+            <Add directory="C:/Qt/Tools/mingw491_32/bin/../lib/gcc/i686-w64-mingw32/4.9.1/include" />
+            <Add directory="C:/Qt/Tools/mingw491_32/bin/../lib/gcc/i686-w64-mingw32/4.9.1/include-fixed" />
+            <Add directory="C:/Qt/Tools/mingw491_32/lib/gcc/../../i686-w64-mingw32/include/c++" />
+            <Add directory="C:/Qt/Tools/mingw491_32/lib/gcc/../../i686-w64-mingw32/include/c++/backward" />
+            <Add directory="C:/Qt/Tools/mingw491_32/lib/gcc/../../i686-w64-mingw32/include/c++/i686-w64-mingw32" />
+            <Add directory="C:/tudatBundle_mvdb/boost" />
+            <Add directory="C:/tudatBundle_mvdb/eigen" />
+            <Add directory="C:/tudatBundle_mvdb/tudat/Tudat/.." />
+            <Add directory="C:/tudatBundle_mvdb/tudatApplications/Exercises/Exercises/.." />
+            <Add directory="C:/tudatBundle_mvdb/tudatApplications/Exercises/Exercises/AFTER" />
+         </Compiler>
+         <MakeCommands>
+            <Build command="C:/Qt/Tools/mingw491_32/bin/mingw32-make.exe -f &quot;C:/tudatBundle_mvdb/tudatApplications/Exercises/Makefile&quot;  VERBOSE=1 application_Exercise1/fast" />
+            <CompileFile command="C:/Qt/Tools/mingw491_32/bin/mingw32-make.exe -f &quot;C:/tudatBundle_mvdb/tudatApplications/Exercises/Makefile&quot;  VERBOSE=1 &quot;$file&quot;" />
+            <Clean command="C:/Qt/Tools/mingw491_32/bin/mingw32-make.exe -f &quot;C:/tudatBundle_mvdb/tudatApplications/Exercises/Makefile&quot;  VERBOSE=1 clean" />
+            <DistClean command="C:/Qt/Tools/mingw491_32/bin/mingw32-make.exe -f &quot;C:/tudatBundle_mvdb/tudatApplications/Exercises/Makefile&quot;  VERBOSE=1 clean" />
+         </MakeCommands>
+      </Target>
+      <Target title="application_Exercise2">
+         <Option output="C:/tudatBundle_mvdb/tudatApplications/Exercises/bin/applications/application_Exercise2.exe" prefix_auto="0" extension_auto="0" />
+         <Option working_dir="C:/tudatBundle_mvdb/tudatApplications/Exercises" />
+         <Option object_output="./" />
+         <Option type="1" />
+         <Option compiler="gcc" />
+         <Compiler>
+            <Add directory="C:/Qt/Tools/mingw491_32/bin/../lib/gcc/i686-w64-mingw32/4.9.1/../../../../i686-w64-mingw32/include" />
+            <Add directory="C:/Qt/Tools/mingw491_32/bin/../lib/gcc/i686-w64-mingw32/4.9.1/include" />
+            <Add directory="C:/Qt/Tools/mingw491_32/bin/../lib/gcc/i686-w64-mingw32/4.9.1/include-fixed" />
+            <Add directory="C:/Qt/Tools/mingw491_32/lib/gcc/../../i686-w64-mingw32/include/c++" />
+            <Add directory="C:/Qt/Tools/mingw491_32/lib/gcc/../../i686-w64-mingw32/include/c++/backward" />
+            <Add directory="C:/Qt/Tools/mingw491_32/lib/gcc/../../i686-w64-mingw32/include/c++/i686-w64-mingw32" />
+            <Add directory="C:/tudatBundle_mvdb/boost" />
+            <Add directory="C:/tudatBundle_mvdb/eigen" />
+            <Add directory="C:/tudatBundle_mvdb/tudat/Tudat/.." />
+            <Add directory="C:/tudatBundle_mvdb/tudatApplications/Exercises/Exercises/.." />
+            <Add directory="C:/tudatBundle_mvdb/tudatApplications/Exercises/Exercises/AFTER" />
+         </Compiler>
+         <MakeCommands>
+            <Build command="C:/Qt/Tools/mingw491_32/bin/mingw32-make.exe -f &quot;C:/tudatBundle_mvdb/tudatApplications/Exercises/Makefile&quot;  VERBOSE=1 application_Exercise2" />
+            <CompileFile command="C:/Qt/Tools/mingw491_32/bin/mingw32-make.exe -f &quot;C:/tudatBundle_mvdb/tudatApplications/Exercises/Makefile&quot;  VERBOSE=1 &quot;$file&quot;" />
+            <Clean command="C:/Qt/Tools/mingw491_32/bin/mingw32-make.exe -f &quot;C:/tudatBundle_mvdb/tudatApplications/Exercises/Makefile&quot;  VERBOSE=1 clean" />
+            <DistClean command="C:/Qt/Tools/mingw491_32/bin/mingw32-make.exe -f &quot;C:/tudatBundle_mvdb/tudatApplications/Exercises/Makefile&quot;  VERBOSE=1 clean" />
+         </MakeCommands>
+      </Target>
+      <Target title="application_Exercise2/fast">
+         <Option output="C:/tudatBundle_mvdb/tudatApplications/Exercises/bin/applications/application_Exercise2.exe" prefix_auto="0" extension_auto="0" />
+         <Option working_dir="C:/tudatBundle_mvdb/tudatApplications/Exercises" />
+         <Option object_output="./" />
+         <Option type="1" />
+         <Option compiler="gcc" />
+         <Compiler>
+            <Add directory="C:/Qt/Tools/mingw491_32/bin/../lib/gcc/i686-w64-mingw32/4.9.1/../../../../i686-w64-mingw32/include" />
+            <Add directory="C:/Qt/Tools/mingw491_32/bin/../lib/gcc/i686-w64-mingw32/4.9.1/include" />
+            <Add directory="C:/Qt/Tools/mingw491_32/bin/../lib/gcc/i686-w64-mingw32/4.9.1/include-fixed" />
+            <Add directory="C:/Qt/Tools/mingw491_32/lib/gcc/../../i686-w64-mingw32/include/c++" />
+            <Add directory="C:/Qt/Tools/mingw491_32/lib/gcc/../../i686-w64-mingw32/include/c++/backward" />
+            <Add directory="C:/Qt/Tools/mingw491_32/lib/gcc/../../i686-w64-mingw32/include/c++/i686-w64-mingw32" />
+            <Add directory="C:/tudatBundle_mvdb/boost" />
+            <Add directory="C:/tudatBundle_mvdb/eigen" />
+            <Add directory="C:/tudatBundle_mvdb/tudat/Tudat/.." />
+            <Add directory="C:/tudatBundle_mvdb/tudatApplications/Exercises/Exercises/.." />
+            <Add directory="C:/tudatBundle_mvdb/tudatApplications/Exercises/Exercises/AFTER" />
+         </Compiler>
+         <MakeCommands>
+            <Build command="C:/Qt/Tools/mingw491_32/bin/mingw32-make.exe -f &quot;C:/tudatBundle_mvdb/tudatApplications/Exercises/Makefile&quot;  VERBOSE=1 application_Exercise2/fast" />
+            <CompileFile command="C:/Qt/Tools/mingw491_32/bin/mingw32-make.exe -f &quot;C:/tudatBundle_mvdb/tudatApplications/Exercises/Makefile&quot;  VERBOSE=1 &quot;$file&quot;" />
+            <Clean command="C:/Qt/Tools/mingw491_32/bin/mingw32-make.exe -f &quot;C:/tudatBundle_mvdb/tudatApplications/Exercises/Makefile&quot;  VERBOSE=1 clean" />
+            <DistClean command="C:/Qt/Tools/mingw491_32/bin/mingw32-make.exe -f &quot;C:/tudatBundle_mvdb/tudatApplications/Exercises/Makefile&quot;  VERBOSE=1 clean" />
+         </MakeCommands>
+      </Target>
+      <Target title="application_Exercise3">
+         <Option output="C:/tudatBundle_mvdb/tudatApplications/Exercises/bin/applications/application_Exercise3.exe" prefix_auto="0" extension_auto="0" />
+         <Option working_dir="C:/tudatBundle_mvdb/tudatApplications/Exercises" />
+         <Option object_output="./" />
+         <Option type="1" />
+         <Option compiler="gcc" />
+         <Compiler>
+            <Add directory="C:/Qt/Tools/mingw491_32/bin/../lib/gcc/i686-w64-mingw32/4.9.1/../../../../i686-w64-mingw32/include" />
+            <Add directory="C:/Qt/Tools/mingw491_32/bin/../lib/gcc/i686-w64-mingw32/4.9.1/include" />
+            <Add directory="C:/Qt/Tools/mingw491_32/bin/../lib/gcc/i686-w64-mingw32/4.9.1/include-fixed" />
+            <Add directory="C:/Qt/Tools/mingw491_32/lib/gcc/../../i686-w64-mingw32/include/c++" />
+            <Add directory="C:/Qt/Tools/mingw491_32/lib/gcc/../../i686-w64-mingw32/include/c++/backward" />
+            <Add directory="C:/Qt/Tools/mingw491_32/lib/gcc/../../i686-w64-mingw32/include/c++/i686-w64-mingw32" />
+            <Add directory="C:/tudatBundle_mvdb/boost" />
+            <Add directory="C:/tudatBundle_mvdb/eigen" />
+            <Add directory="C:/tudatBundle_mvdb/tudat/Tudat/.." />
+            <Add directory="C:/tudatBundle_mvdb/tudatApplications/Exercises/Exercises/.." />
+            <Add directory="C:/tudatBundle_mvdb/tudatApplications/Exercises/Exercises/AFTER" />
+         </Compiler>
+         <MakeCommands>
+            <Build command="C:/Qt/Tools/mingw491_32/bin/mingw32-make.exe -f &quot;C:/tudatBundle_mvdb/tudatApplications/Exercises/Makefile&quot;  VERBOSE=1 application_Exercise3" />
+            <CompileFile command="C:/Qt/Tools/mingw491_32/bin/mingw32-make.exe -f &quot;C:/tudatBundle_mvdb/tudatApplications/Exercises/Makefile&quot;  VERBOSE=1 &quot;$file&quot;" />
+            <Clean command="C:/Qt/Tools/mingw491_32/bin/mingw32-make.exe -f &quot;C:/tudatBundle_mvdb/tudatApplications/Exercises/Makefile&quot;  VERBOSE=1 clean" />
+            <DistClean command="C:/Qt/Tools/mingw491_32/bin/mingw32-make.exe -f &quot;C:/tudatBundle_mvdb/tudatApplications/Exercises/Makefile&quot;  VERBOSE=1 clean" />
+         </MakeCommands>
+      </Target>
+      <Target title="application_Exercise3/fast">
+         <Option output="C:/tudatBundle_mvdb/tudatApplications/Exercises/bin/applications/application_Exercise3.exe" prefix_auto="0" extension_auto="0" />
+         <Option working_dir="C:/tudatBundle_mvdb/tudatApplications/Exercises" />
+         <Option object_output="./" />
+         <Option type="1" />
+         <Option compiler="gcc" />
+         <Compiler>
+            <Add directory="C:/Qt/Tools/mingw491_32/bin/../lib/gcc/i686-w64-mingw32/4.9.1/../../../../i686-w64-mingw32/include" />
+            <Add directory="C:/Qt/Tools/mingw491_32/bin/../lib/gcc/i686-w64-mingw32/4.9.1/include" />
+            <Add directory="C:/Qt/Tools/mingw491_32/bin/../lib/gcc/i686-w64-mingw32/4.9.1/include-fixed" />
+            <Add directory="C:/Qt/Tools/mingw491_32/lib/gcc/../../i686-w64-mingw32/include/c++" />
+            <Add directory="C:/Qt/Tools/mingw491_32/lib/gcc/../../i686-w64-mingw32/include/c++/backward" />
+            <Add directory="C:/Qt/Tools/mingw491_32/lib/gcc/../../i686-w64-mingw32/include/c++/i686-w64-mingw32" />
+            <Add directory="C:/tudatBundle_mvdb/boost" />
+            <Add directory="C:/tudatBundle_mvdb/eigen" />
+            <Add directory="C:/tudatBundle_mvdb/tudat/Tudat/.." />
+            <Add directory="C:/tudatBundle_mvdb/tudatApplications/Exercises/Exercises/.." />
+            <Add directory="C:/tudatBundle_mvdb/tudatApplications/Exercises/Exercises/AFTER" />
+         </Compiler>
+         <MakeCommands>
+            <Build command="C:/Qt/Tools/mingw491_32/bin/mingw32-make.exe -f &quot;C:/tudatBundle_mvdb/tudatApplications/Exercises/Makefile&quot;  VERBOSE=1 application_Exercise3/fast" />
+            <CompileFile command="C:/Qt/Tools/mingw491_32/bin/mingw32-make.exe -f &quot;C:/tudatBundle_mvdb/tudatApplications/Exercises/Makefile&quot;  VERBOSE=1 &quot;$file&quot;" />
+            <Clean command="C:/Qt/Tools/mingw491_32/bin/mingw32-make.exe -f &quot;C:/tudatBundle_mvdb/tudatApplications/Exercises/Makefile&quot;  VERBOSE=1 clean" />
+            <DistClean command="C:/Qt/Tools/mingw491_32/bin/mingw32-make.exe -f &quot;C:/tudatBundle_mvdb/tudatApplications/Exercises/Makefile&quot;  VERBOSE=1 clean" />
+         </MakeCommands>
+      </Target>
+      <Target title="test">
+         <Option working_dir="C:/tudatBundle_mvdb/tudatApplications/Exercises" />
+         <Option type="4" />
+         <MakeCommands>
+            <Build command="C:/Qt/Tools/mingw491_32/bin/mingw32-make.exe -f &quot;C:/tudatBundle_mvdb/tudatApplications/Exercises/Makefile&quot;  VERBOSE=1 test" />
+            <CompileFile command="C:/Qt/Tools/mingw491_32/bin/mingw32-make.exe -f &quot;C:/tudatBundle_mvdb/tudatApplications/Exercises/Makefile&quot;  VERBOSE=1 &quot;$file&quot;" />
+            <Clean command="C:/Qt/Tools/mingw491_32/bin/mingw32-make.exe -f &quot;C:/tudatBundle_mvdb/tudatApplications/Exercises/Makefile&quot;  VERBOSE=1 clean" />
+            <DistClean command="C:/Qt/Tools/mingw491_32/bin/mingw32-make.exe -f &quot;C:/tudatBundle_mvdb/tudatApplications/Exercises/Makefile&quot;  VERBOSE=1 clean" />
+         </MakeCommands>
+      </Target>
+      <Target title="application_main_class">
+         <Option output="C:/tudatBundle_mvdb/tudatApplications/Exercises/bin/applications/application_main_class.exe" prefix_auto="0" extension_auto="0" />
+         <Option working_dir="C:/tudatBundle_mvdb/tudatApplications/Exercises" />
+         <Option object_output="./" />
+         <Option type="1" />
+         <Option compiler="gcc" />
+         <Compiler>
+            <Add directory="C:/Qt/Tools/mingw491_32/bin/../lib/gcc/i686-w64-mingw32/4.9.1/../../../../i686-w64-mingw32/include" />
+            <Add directory="C:/Qt/Tools/mingw491_32/bin/../lib/gcc/i686-w64-mingw32/4.9.1/include" />
+            <Add directory="C:/Qt/Tools/mingw491_32/bin/../lib/gcc/i686-w64-mingw32/4.9.1/include-fixed" />
+            <Add directory="C:/Qt/Tools/mingw491_32/lib/gcc/../../i686-w64-mingw32/include/c++" />
+            <Add directory="C:/Qt/Tools/mingw491_32/lib/gcc/../../i686-w64-mingw32/include/c++/backward" />
+            <Add directory="C:/Qt/Tools/mingw491_32/lib/gcc/../../i686-w64-mingw32/include/c++/i686-w64-mingw32" />
+            <Add directory="C:/tudatBundle_mvdb/boost" />
+            <Add directory="C:/tudatBundle_mvdb/eigen" />
+            <Add directory="C:/tudatBundle_mvdb/tudat/Tudat/.." />
+            <Add directory="C:/tudatBundle_mvdb/tudatApplications/Exercises/Exercises/.." />
+            <Add directory="C:/tudatBundle_mvdb/tudatApplications/Exercises/Exercises/AFTER" />
+         </Compiler>
+         <MakeCommands>
+            <Build command="C:/Qt/Tools/mingw491_32/bin/mingw32-make.exe -f &quot;C:/tudatBundle_mvdb/tudatApplications/Exercises/Makefile&quot;  VERBOSE=1 application_main_class" />
+            <CompileFile command="C:/Qt/Tools/mingw491_32/bin/mingw32-make.exe -f &quot;C:/tudatBundle_mvdb/tudatApplications/Exercises/Makefile&quot;  VERBOSE=1 &quot;$file&quot;" />
+            <Clean command="C:/Qt/Tools/mingw491_32/bin/mingw32-make.exe -f &quot;C:/tudatBundle_mvdb/tudatApplications/Exercises/Makefile&quot;  VERBOSE=1 clean" />
+            <DistClean command="C:/Qt/Tools/mingw491_32/bin/mingw32-make.exe -f &quot;C:/tudatBundle_mvdb/tudatApplications/Exercises/Makefile&quot;  VERBOSE=1 clean" />
+         </MakeCommands>
+      </Target>
+      <Target title="application_main_class/fast">
+         <Option output="C:/tudatBundle_mvdb/tudatApplications/Exercises/bin/applications/application_main_class.exe" prefix_auto="0" extension_auto="0" />
+         <Option working_dir="C:/tudatBundle_mvdb/tudatApplications/Exercises" />
+         <Option object_output="./" />
+         <Option type="1" />
+         <Option compiler="gcc" />
+         <Compiler>
+            <Add directory="C:/Qt/Tools/mingw491_32/bin/../lib/gcc/i686-w64-mingw32/4.9.1/../../../../i686-w64-mingw32/include" />
+            <Add directory="C:/Qt/Tools/mingw491_32/bin/../lib/gcc/i686-w64-mingw32/4.9.1/include" />
+            <Add directory="C:/Qt/Tools/mingw491_32/bin/../lib/gcc/i686-w64-mingw32/4.9.1/include-fixed" />
+            <Add directory="C:/Qt/Tools/mingw491_32/lib/gcc/../../i686-w64-mingw32/include/c++" />
+            <Add directory="C:/Qt/Tools/mingw491_32/lib/gcc/../../i686-w64-mingw32/include/c++/backward" />
+            <Add directory="C:/Qt/Tools/mingw491_32/lib/gcc/../../i686-w64-mingw32/include/c++/i686-w64-mingw32" />
+            <Add directory="C:/tudatBundle_mvdb/boost" />
+            <Add directory="C:/tudatBundle_mvdb/eigen" />
+            <Add directory="C:/tudatBundle_mvdb/tudat/Tudat/.." />
+            <Add directory="C:/tudatBundle_mvdb/tudatApplications/Exercises/Exercises/.." />
+            <Add directory="C:/tudatBundle_mvdb/tudatApplications/Exercises/Exercises/AFTER" />
+         </Compiler>
+         <MakeCommands>
+            <Build command="C:/Qt/Tools/mingw491_32/bin/mingw32-make.exe -f &quot;C:/tudatBundle_mvdb/tudatApplications/Exercises/Makefile&quot;  VERBOSE=1 application_main_class/fast" />
+            <CompileFile command="C:/Qt/Tools/mingw491_32/bin/mingw32-make.exe -f &quot;C:/tudatBundle_mvdb/tudatApplications/Exercises/Makefile&quot;  VERBOSE=1 &quot;$file&quot;" />
+            <Clean command="C:/Qt/Tools/mingw491_32/bin/mingw32-make.exe -f &quot;C:/tudatBundle_mvdb/tudatApplications/Exercises/Makefile&quot;  VERBOSE=1 clean" />
+            <DistClean command="C:/Qt/Tools/mingw491_32/bin/mingw32-make.exe -f &quot;C:/tudatBundle_mvdb/tudatApplications/Exercises/Makefile&quot;  VERBOSE=1 clean" />
+         </MakeCommands>
+      </Target>
+      </Build>
+      <Unit filename="C:/tudatBundle_mvdb/tudatApplications/Exercises/Exercises/Exercise1.cpp">
+      </Unit>
+      <Unit filename="C:/tudatBundle_mvdb/tudatApplications/Exercises/Exercises/Exercise2.cpp">
+      </Unit>
+      <Unit filename="C:/tudatBundle_mvdb/tudatApplications/Exercises/Exercises/Exercise3.cpp">
+      </Unit>
+      <Unit filename="C:/tudatBundle_mvdb/tudatApplications/Exercises/Exercises/ex_spacecraft.cpp">
+      </Unit>
+      <Unit filename="C:/tudatBundle_mvdb/tudatApplications/Exercises/Exercises/ex_statederivative.cpp">
+      </Unit>
+      <Unit filename="C:/tudatBundle_mvdb/tudatApplications/Exercises/Exercises/functies.cpp">
+      </Unit>
+      <Unit filename="C:/tudatBundle_mvdb/tudatApplications/Exercises/Exercises/main_class.cpp">
+      </Unit>
+      <Unit filename="C:/tudatBundle_mvdb/tudatApplications/Exercises/Exercises/ex_spacecraft.h">
+      </Unit>
+      <Unit filename="C:/tudatBundle_mvdb/tudatApplications/Exercises/Exercises/ex_statederivative.h">
+      </Unit>
+      <Unit filename="C:/tudatBundle_mvdb/tudatApplications/Exercises/Exercises/functies.h">
+      </Unit>
+      <Unit filename="C:/tudatBundle_mvdb/tudatApplications/Exercises/Exercises/CMakeLists.txt">
+          <Option virtualFolder="CMake Files\" />
+      </Unit>
+      <Unit filename="C:/tudatBundle_mvdb/tudatApplications/Exercises/Exercises/CMakeModules/compiler.cmake">
+          <Option virtualFolder="CMake Files\CMakeModules\" />
+      </Unit>
+      <Unit filename="C:/tudatBundle_mvdb/tudatApplications/Exercises/Exercises/CMakeModules/FindEigen3.cmake">
+          <Option virtualFolder="CMake Files\CMakeModules\" />
+      </Unit>
+      <Unit filename="C:/tudatBundle_mvdb/tudatApplications/Exercises/Exercises/CMakeModules/FindBoost.cmake">
+          <Option virtualFolder="CMake Files\CMakeModules\" />
+      </Unit>
+      <Unit filename="C:/tudatBundle_mvdb/tudatApplications/Exercises/Exercises/CMakeModules/FindTudat.cmake">
+          <Option virtualFolder="CMake Files\CMakeModules\" />
+      </Unit>
+   </Project>
+</CodeBlocks_project_file>

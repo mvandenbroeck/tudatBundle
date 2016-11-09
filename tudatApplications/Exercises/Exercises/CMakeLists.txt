@@ -167,7 +167,8 @@ else()
 endif()
 
 # Add library.
-add_library(putanythingyouwanthere_application STATIC functies.h functies.cpp)
+add_library(putanythingyouwanthere_application STATIC functies.h functies.cpp ex_statederivative.h
+ex_statederivative.cpp ex_spacecraft.h ex_spacecraft.cpp)
 setup_library_target(putanythingyouwanthere_application "${SRCROOT}")
 
 # Add Exercise1 application.
@@ -188,3 +189,8 @@ setup_executable_target(application_Exercise3 "${SRCROOT}")
 target_link_libraries(application_Exercise3 tudat_gravitation putanythingyouwanthere_application
                      ${TUDAT_CORE_LIBRARIES} ${Boost_LIBRARIES})
 
+# Add main_class application.
+add_executable(application_main_class "${SRCROOT}/main_class.cpp")
+setup_executable_target(application_main_class "${SRCROOT}")
+target_link_libraries(application_main_class tudat_gravitation putanythingyouwanthere_application
+                     ${TUDAT_CORE_LIBRARIES} ${Boost_LIBRARIES})
