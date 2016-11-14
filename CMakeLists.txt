@@ -110,7 +110,7 @@ endif()
 #
 set(TUDAT_BUILD_DIR "${PROJECTROOT}/tudat")
 add_subdirectory( "${PROJECTROOT}/tudat/Tudat/")
-add_subdirectory( "${PROJECTROOT}/Thesis/USMPropagation/USMPropagation/" )
+add_subdirectory( "${PROJECTROOT}/Thesis/" )
 add_subdirectory( "${PROJECTROOT}/tudatExampleApplications/satellitePropagatorExamples/SatellitePropagatorExamples/")
 if(USE_CSPICE AND USE_JSONCPP)
   add_subdirectory( "${PROJECTROOT}/tudatExampleApplications/libraryExamples/SpiceAndJSON/")
